@@ -6,4 +6,4 @@
 - Modify blackbox program "blackbox.m" as necessary
 - Must unscale variables inside blackbox for evaluation using `scaling` command:
  - `x_s = scaling(x,lb,ub,1)` to scale
- - `x_s = scaling(x,lb,ub,2)` to unscale
+ - `x = scaling(x_s,lb,ub,2)` to unscale
